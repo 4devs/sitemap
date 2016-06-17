@@ -1,7 +1,10 @@
 Sitemap
 ==========
 
+use rules [Sitemaps XML format](http://www.sitemaps.org/protocol.html) for the generate sitemap
+
 If you use Symfony 2, you could use our [sitemap bridge](https://github.com/4devs/sitemap-bridge) or [sitemap bundle](https://github.com/4devs/sitemap-bundle)!
+
 
 ## Installation
 Sitemap uses Composer, please checkout the [composer website](http://getcomposer.org) for more information.

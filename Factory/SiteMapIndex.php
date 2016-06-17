@@ -31,8 +31,8 @@ class SiteMapIndex extends AbstractFactory
     /**
      * SiteMapIndexFactory constructor.
      *
-     * @param string $uri
-     * @param string $dir
+     * @param string      $uri
+     * @param string      $dir
      * @param UrlSet|null $urlSet
      */
     public function __construct($uri, $dir, UrlSet $urlSet = null)

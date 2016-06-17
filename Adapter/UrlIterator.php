@@ -2,8 +2,6 @@
 
 namespace FDevs\Sitemap\Adapter;
 
-
-
 class UrlIterator implements UrlIteratorInterface
 {
     /**
