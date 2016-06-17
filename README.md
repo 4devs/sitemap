@@ -1,13 +1,10 @@
-Pagination
+Sitemap
 ==========
 
-This is a PHP paginator with a totally different core concept.
-
-If you use Symfony 2, you could use our [sitemap bridge](https://github.com/4devs/sitemap-bridge)!
-If you use Symfony 2 framework, you could use our [sitemap bundle](https://github.com/4devs/sitemap-bundle)!
+If you use Symfony 2, you could use our [sitemap bridge](https://github.com/4devs/sitemap-bridge) or [sitemap bundle](https://github.com/4devs/sitemap-bundle)!
 
 ## Installation
-Pagination uses Composer, please checkout the [composer website](http://getcomposer.org) for more information.
+Sitemap uses Composer, please checkout the [composer website](http://getcomposer.org) for more information.
 
 The simple following command will install `sitemap` into your project. It also add a new
 entry in your `composer.json` and update the `composer.lock` as well.
@@ -103,16 +100,14 @@ $index->saveFile('/full/path/to/sitemap.xml',$params);
 
 ```php
 use FDevs\Sitemap\Util\Params;
-$params = Params::prepare(['_locale'=>['ru','en'],'_format'=>['html','xml']])
+$params = Params::prepare(['_locale'=>['ru','en'],'_format'=>['html','rss']])
 //output
-/**
-$params = [
-    ['_locale' => 'ru', '_format' => 'html'],
-    ['_locale' => 'en', '_format' => 'html'],
-    ['_locale' => 'ru', '_format' => 'rss'],
-    ['_locale' => 'en', '_format' => 'rss'],
-];
-*/
+//$params = [
+//    ['_locale' => 'ru', '_format' => 'html'],
+//    ['_locale' => 'en', '_format' => 'html'],
+//    ['_locale' => 'ru', '_format' => 'rss'],
+//    ['_locale' => 'en', '_format' => 'rss'],
+//];
 ```
 
 ### usage sitemap manager
