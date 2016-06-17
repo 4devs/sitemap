@@ -33,13 +33,13 @@ class SiteMapIndex extends AbstractFactory
      *
      * @param string $uri
      * @param string $dir
-     * @param UrlSet $urlSet
+     * @param UrlSet|null $urlSet
      */
-    public function __construct($uri, $dir, UrlSet $urlSet)
+    public function __construct($uri, $dir, UrlSet $urlSet = null)
     {
         $this->uri = $uri;
         $this->dir = $dir;
-        $this->urlSet = $urlSet;
+        $this->urlSet = $urlSet ?: new UrlSet();
     }
 
     /**
