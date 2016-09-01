@@ -5,11 +5,6 @@ namespace FDevs\Sitemap\Model;
 class SiteMapIndex extends AbstractElement
 {
     /**
-     * @var array
-     */
-    protected $attr = ['xmlns' => 'http://www.sitemaps.org/schemas/sitemap/0.9'];
-
-    /**
      * @var SiteMap[]
      */
     protected $siteMapList = [];
