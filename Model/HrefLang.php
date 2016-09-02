@@ -39,6 +39,7 @@ class HrefLang extends AbstractElement
      */
     public function getValue()
     {
+        return null;
     }
 
     /**
