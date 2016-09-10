@@ -23,6 +23,7 @@
         "php": ">=5.4"
     },
     "require-dev": {
+        "mikey179/vfsStream": "1.*"
     },
     "suggest": {
         "fdevs/sitemap-bridge": "use with symfony components",
