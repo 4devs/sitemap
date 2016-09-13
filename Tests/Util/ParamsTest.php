@@ -1,6 +1,6 @@
 <?php
 
-namespace FDevs\Tests\Util;
+namespace FDevs\Sitemap\Tests\Util;
 
 use FDevs\Sitemap\Util\Params;
 use PHPUnit\Framework\TestCase;
